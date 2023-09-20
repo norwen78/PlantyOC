@@ -12,9 +12,9 @@
  */
 
 ?>
-			<footer id="site-footer" class="header-footer-group">
+			<footer id="site-footer" class="header-footer-group footer">
 
-				
+			<a class="footer_legal" href="#">Mentions légales</a>
 
 			</footer><!-- #site-footer -->
 

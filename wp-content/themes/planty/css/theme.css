@@ -250,7 +250,13 @@ width: 358px;
 .form-row {
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 35px !important;
+}
+
+.quantity-form-row {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
 }
 
 .img-quantity {
@@ -259,7 +265,13 @@ width: 358px;
 .row-quantity {
     display: flex !important;
     flex-direction: row !important;
-    gap: 42px;
+    gap: 10px;
+}
+
+.row-quantity-2 {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 0px !important;
 }
 .button-quantity {
     width: 100px !important;
@@ -268,29 +280,56 @@ width: 358px;
     background-color: #E0B9B4 !important;
 }
 
+.button-input-quantity-plus {
+    background-color: #E0B9B4 !important;
+    height: 28px !important;
+    width: 31px !important;
+    padding: 0px;
+    border-radius: 0px;
+    border-top-right-radius: 5px;
+    border-bottom: 1px solid white;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+}
+
+.button-input-quantity-minus {
+    background-color: #E0B9B4 !important;
+    height: 28px !important;
+    width: 31px !important;
+    padding: 0px;
+    border-radius: 0px;
+    border-bottom-right-radius: 5px;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+}
+
+
 .fruits {
     width: 51px !important;
     height: 56px !important;
+    border-radius: 0px !important;
+    border-bottom-left-radius: 5px !important;
+    border-top-left-radius: 5px !important;
 }
 
 .ligne-vertical {
-    padding-right: 30px;
+    padding-right: 70px;
     border-right: 2px solid white;
     height: 345px;
 }
 
 .ligne-horizontal {
     border-bottom: 1px solid white;
-    width: 43%;
+    width: 48%;
 }
 
 hr {
     border-color: white !important;
-    width: 40%;
+    width: 48%;
     border-width: 2px;
 }
 .double-bloc {
-    gap: 0px !important;
+    /*gap: 0px !important;*/
 }
 
 .bloc-livraison {

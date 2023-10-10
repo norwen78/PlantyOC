@@ -1,7 +1,16 @@
+:root {
+                    --ast-container-default-lg-padding: 0em !important;
+
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
 
 body * {
     font-family: 'Syne', sans-serif;
+}
+
+html {
+    --ast-container-default-xlg-padding: 0em !important;
 }
 
 .ast-container {
@@ -73,7 +82,6 @@ footer a {
 /* Acceuil */
 
 .titre-accueil {
-    width: 781px;
     height: 92px;
     font-weight: 800 !important;
     font-size: 38px !important;
@@ -83,26 +91,22 @@ footer a {
     height: 415px;
 }
 .first-section-title {
-    width: 487px !important;
     height: 36px !important;
     font-weight: 700 !important;
     font-size: 30px !important;
     line-height: 36px!important;
 }
 .first-section-text {
-    width: 497px !important;
     height: 120px;
     line-height: 24px;
 }
 .fruits-title{
     height: 36px !important;
-    width: 287px !important;
     font-size: 30px !important;
     font-weight: 800 !important;
 }
 
 .fruits-text {
-    width: 548px !important;
     height: 24px !important;
     font-weight: 400 !important;
     font-size: 20px !important;
@@ -113,14 +117,10 @@ font-size: 48px !important;
 font-weight: 800 !important;
 line-height: 58px !important;
 text-align: center;
-width: 358px;
-}
-
-.fruits-image {
-    width: 394px !important;
 }
 
 .button-commander a{
+    border-radius: 5px !important;
     width: 198px !important;
     height: 55px !important;
     font-weight: 400 !important;
@@ -145,6 +145,15 @@ width: 358px;
 
 /* Contact */
 
+
+.bloc-2-contact {
+    width: 100% !important;
+}
+
+.can-footer {
+    width: 100% !important;
+}
+
 .fleur {
     position: absolute;
     left: 23%;
@@ -154,7 +163,7 @@ width: 358px;
 .feuilles {
     position: absolute;
     left: 78%;
-    top: 35.8%;
+    top: 36%;
 
 }
 
@@ -363,4 +372,251 @@ hr {
     font-weight: 700 !important;
     font-size: 30px !important;
     color: white !important;
+}
+
+@media only screen and (max-width:1900px) {
+
+
+    /* Responsive Contact */
+    .fleur {
+        left: 20% !important;
+
+    }
+}
+
+@media only screen and (max-width:1700px) {
+
+    /* Responsive Contact */
+    .fleur {
+        left: 12% !important;
+
+    }
+    .form-fleur {
+    left: 35% !important;
+    top: 73% !important;
+}
+
+}
+
+@media only screen and (max-width:1360px) {
+
+
+    /* Responsive Contact */
+    .fleur {
+        left: 1% !important;
+
+    }
+    .feuilles {
+        left: 80% !important;
+        top: 36.8%;
+    }
+
+    .form-fleur {
+    left: 40 !important%;
+    top: 75% !important;
+}
+}
+
+@media only screen and (max-width:1023px) {
+
+    .titre-accueil {
+        max-width: 320px !important;
+        font-size: 20px !important;
+    }
+
+    .third-section {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .uagb-container__shape-fill {
+        display: none !important;
+    }
+
+
+    /* Responsive Contact */
+    .fleur {
+        display: none !important;
+    }
+    .feuilles {
+        display: none !important;
+    }
+
+    .form-fleur {
+    display: none !important;
+}
+}
+
+@media only screen and (max-width:768px) {
+
+    .site-content {
+        background-color: #ECE2DA;
+    }
+
+    .content-area {
+        padding: 0px !important;
+    }
+
+    /* Responsive Contact */
+
+    .form-contact {
+    width: 40% !important;
+}
+    .submit-button {
+    margin-left: 18% !important;
+}
+    .post-80 {
+        background-color: #ECE2DA !important;
+    }
+
+
+    /* Responsive Commander */
+
+    .quantity-form-row {
+        flex-direction: column !important;
+        gap: 8px !important;
+    }
+
+}
+
+
+@media only screen and (max-width:425px) {
+
+    .site-content {
+        background-color: #ECE2DA;
+        margin: 0px !important;
+
+    }
+
+    .content-area {
+        max-width: 380px !important;
+        margin-left: 22.5px !important;
+        margin-right: 22.5px !important;
+    }
+
+    /* Responsive Acceuil */
+
+
+    .spacer-1 {
+        display: none !important;
+    }
+
+    .fruits-typo {
+        font-size: 36px !important;
+    }
+
+    /* Responsive Contact */
+
+    .form-contact {
+    width: 60% !important;
+}
+
+
+    .submit-button {
+    margin-left: 25% !important;
+}
+    .form-submit {
+        width: 120px !important;
+        height: 30px !important;
+        line-height: 0px !important;
+    }
+
+     /* Responsive Commander */
+
+     .double-bloc {
+        flex-direction: column !important;
+     }
+
+     .ligne-vertical {
+        border: none;
+        padding-right: 0px !important;
+
+     }
+
+     .bloc-livraison {
+        margin-left: 0px !important
+     }
+
+}
+
+@media only screen and (max-width:375px) {
+
+    .site-content {
+        background-color: #ECE2DA;
+        margin: 0px !important;
+
+    }
+
+    .content-area {
+        max-width: 350px !important;
+        margin-left: 12.5px !important;
+        margin-right: 12.5px !important;
+    }
+
+     /* Responsive Acceuil */
+
+    .spacer-1 {
+        display: none !important;
+    }
+
+    .fruits-typo {
+        font-size: 36px !important;
+    }
+
+    /* Responsive Contact */
+
+    .submit-button {
+    margin-left: 20% !important;
+    }
+
+    .button-submit {
+        margin-left: 10% !important;
+    }
+}
+
+@media only screen and (max-width:320px) {
+
+    .site-content {
+        background-color: #ECE2DA;
+        margin: 0px !important;
+
+    }
+
+    .content-area {
+        max-width: 280px !important;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+
+    /* Responsive Acceuil */
+    .spacer-1 {
+        display: none !important;
+    }
+
+    .first-section-text {
+        font-size: 16px !important;
+    }
+
+    .fruits-typo {
+        font-size: 30px !important;
+    }
+
+    /* Responsive Contact */
+
+
+    .contact-title {
+        font-size: 30px !important;
+    }
+
+    .form-submit {
+        width: 80px !important;
+        height: 30px !important;
+        padding-left: 12px !important;
+        line-height: 0px !important;
+    }
+
+    .submit-button {
+    margin-left: 27% !important;
+}
+
 }

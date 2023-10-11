@@ -1,8 +1,3 @@
-:root {
-                    --ast-container-default-lg-padding: 0em !important;
-
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
 
 body * {
@@ -412,12 +407,18 @@ hr {
     }
 
     .form-fleur {
-    left: 40 !important%;
     top: 75% !important;
 }
 }
 
+
 @media only screen and (max-width:1023px) {
+
+    .site-content {
+        background-color: #ECE2DA;
+        margin: 0px !important;
+
+    }
 
     .titre-accueil {
         max-width: 320px !important;
@@ -477,6 +478,15 @@ hr {
         gap: 8px !important;
     }
 
+    .ligne-vertical {
+        height: 320px !important;
+    }
+
+    .typo-titre-section {
+        text-align: center;
+        font-size: 26px !important;
+    }
+
 }
 
 
@@ -522,6 +532,10 @@ hr {
     }
 
      /* Responsive Commander */
+
+     .titre-commander {
+        font-size: 26px !important;
+     }
 
      .double-bloc {
         flex-direction: column !important;
@@ -617,6 +631,20 @@ hr {
 
     .submit-button {
     margin-left: 27% !important;
-}
+    }
 
+
+    /* Responsive Commander */
+
+    .titre-commander {
+        font-size: 20px !important;
+    }
+
+    .typo-titre-section {
+        font-size: 18px !important;
+    }
+
+    .typo-case {
+        font-size: 16px !important;
+    }
 }
